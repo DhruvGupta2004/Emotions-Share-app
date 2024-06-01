@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "917503289612",
+    "project_id": "emotions-8dcc5",
+    "storage_bucket": "emotions-8dcc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917503289612:android:d721c0709d032325158129",
+        "android_client_info": {
+          "package_name": "com.example.emotions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Ds-kvEb0FqHa0dehIIaRjE8leZq1DPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

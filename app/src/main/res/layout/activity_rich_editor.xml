@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editor.RichEditor"
+    android:orientation="vertical">
+
+    <!-- Heading TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Writer"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- ImageButton for Bold -->
+        <ImageButton
+            android:id="@+id/boldButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_format_bold_24"
+            android:background="@drawable/button_background"
+            android:contentDescription="Bold"
+            android:padding="8dp"
+            android:layout_margin="2dp" />
+
+        <!-- ImageButton for Italic -->
+        <ImageButton
+            android:id="@+id/italicButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_format_italic_24"
+            android:background="@drawable/button_background"
+            android:contentDescription="Italic"
+            android:padding="8dp"
+            android:layout_margin="2dp" />
+
+        <!-- ImageButton for Big Text -->
+        <ImageButton
+            android:id="@+id/bigTextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_text_increase_24"
+            android:background="@drawable/button_background"
+            android:contentDescription="Big Text"
+            android:padding="8dp"
+            android:layout_margin="2dp" />
+
+        <!-- ImageButton for Small Text -->
+        <ImageButton
+            android:id="@+id/smallTextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_text_decrease_24"
+            android:background="@drawable/button_background"
+            android:contentDescription="Small Text"
+            android:padding="8dp"
+            android:layout_margin="2dp" />
+
+        <!-- ImageButton for Highlight -->
+        <ImageButton
+            android:id="@+id/highlightButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_highlight_24"
+            android:background="@drawable/button_background"
+            android:contentDescription="Highlight"
+            android:padding="8dp"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/addImageButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_image_24"
+            android:background="@drawable/button_background"
+            android:contentDescription="Add Image"
+            android:padding="8dp"
+            android:layout_margin="2dp" />
+
+        <ImageButton
+            android:id="@+id/linkButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_add_link_24"
+            android:background="@drawable/button_background"
+            android:contentDescription="Add Link"
+            android:padding="8dp"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+
+    <!-- Heading TextView for Edit Text -->
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="TITLE..."
+        android:typeface="normal"
+        android:autoSizeTextType="uniform"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:background="#BAB9B9"/>
+
+    <!-- EditText -->
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter text here..."
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:background="#BAB9B9" /> <!-- Light gray background color -->
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="POST"
+        android:textStyle="bold"
+        android:background="@drawable/transparent"/>
+
+</LinearLayout>
