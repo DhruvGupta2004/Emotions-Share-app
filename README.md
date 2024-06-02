@@ -79,8 +79,8 @@ Before you begin, ensure you have met the following requirements:
 ## Video
 
 ### Video Demo:
-[Firebase Working](https://drive.google.com/file/d/1G6Icrco8Q3dwH5jwdB-GZjIRyQj4urvN/view?usp=sharing)
-[RichText Editor Working](https://drive.google.com/file/d/1sV89fyAtZm-bp2ADPigLMJYH8f_Mtf7F/view?usp=sharing)
+- [Firebase Working](https://drive.google.com/file/d/1G6Icrco8Q3dwH5jwdB-GZjIRyQj4urvN/view?usp=sharing)
+- [RichText Editor Working](https://drive.google.com/file/d/1sV89fyAtZm-bp2ADPigLMJYH8f_Mtf7F/view?usp=sharing)
 
 ## Contributing
 
